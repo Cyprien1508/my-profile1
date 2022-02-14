@@ -1,0 +1,129 @@
+/*colours and fonts */
+
+body{
+	background: #C8C2BC;
+	color: #423F3E;
+	font-family: 'Lora', serif; 
+	font-size: 16px;
+
+
+}
+h1{
+	color: #362222;
+	font-size: 34px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	text-align: center;
+
+}
+
+h2{
+	color: #5C3D2E;
+	font-size: 22px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+a{
+	text-decoration: none ;
+	color: #272121;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+
+}
+
+a:hover {
+	color: #C87941;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+/* Custom design with class */
+
+.Total{ 
+ text-align: center; 
+ width: 700px;
+ margin: 40px auto;
+}
+
+@media (max-width: 720px){
+	.Total {
+		width: 600px;
+	}
+}
+
+@media (max-width: 540px){
+	.Total {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
+
+#Tete{     
+	background: white;
+    padding: 40px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px; 
+}
+
+#Card-white{
+	background: white; ;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    text-align: center;
+    }
+
+
+#Logo{ 
+	border-radius: 50%; 
+}
+
+#list-inline{}
+
+
+.btn-brown{
+	background-color: #362222;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 4px;
+
+}
+
+.btn-brown:hover {
+	background-color: #C8C2BC;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+} 
+
+.list-inline i {
+	font-size: 40px;
+	color: #362222;
+}
+
+.list-inline i:hover {
+	color: #C8C2BC;
+}
+
+#Tete p {
+	margin-bottom: 40px;
+}
